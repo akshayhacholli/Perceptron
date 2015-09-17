@@ -1,0 +1,26 @@
+Details about the project
+|--------------------------------------------------------------------------------------------------------------|
+| # The following program is written in JAVA.                                                                  |
+| # The program trains a single layer perceptron with logistic regression using gradient descent algorithm.    |
+| # It takes four inputs as command line arguments.                                                            |
+| 	- First is the "Training" file using which tree will be built.                                         	   |
+| 	- Second is the "Testing" used to test the accuracy of decision tree.                                  	   |
+| 	- Third is the learning rate										.                                  	   |
+| 	- Fourth is the number of iterations								.                                  	   |
+| # The entire program uses three java files namely - Attribute.java, Main.java, TrainData.java.  |
+| # The main program resides in the file Main.java and that's the starting point of program.                    |
+|--------------------------------------------------------------------------------------------------------------|
+
+ *  Operating system : Tested on windows and ubuntu machine
+ *  Assumption : Java path is set
+ *
+ *  Compilation : javac directory_path\*.java
+ *  Execution: java Main "path_of_train_file" "path_of_test_file" learning_rate number_of_iterations
+ *  
+ *  Input : train file path, test file path, learning rate, number of iterations data as command line arguments
+ *  Output : Accuracy of training data and test data
+ *  
+ *  Example for windows - 
+ *  D:\>java Main "Data/Train.dat" "Data/Test.dat" 0.05 2000
+ *  Accuracy of training file ( 15 instance ) = 93.33
+ *  Accuracy of test data ( 14 instances ) = 85.71
